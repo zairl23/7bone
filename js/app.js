@@ -4,3 +4,11 @@ var myApp = new Framework7({
     // ... other parameters
 	// http://framework7.io/docs/init-app.html
 });
+
+var $$ = Dom7;
+
+// Add main View
+var mainView = myApp.addView('.view-main', {
+    // Enable dynamic Navbar
+    dynamicNavbar: true,
+});
